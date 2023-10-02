@@ -1,0 +1,59 @@
+:root {
+    /*Por defecto para toda la pagina - definimos variables*/
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px; /*Tamano de la fuente*/ 
+    
+}
+
+/*-----HEADER-------*/
+.headerContainer{
+    text-align: center;
+    text-transform: uppercase;
+    /*font-style: italic; */
+    border: 1px solid lightblue;
+    background: black;
+    border-radius: 10px;
+}
+
+.headerContainer h1{
+    color: yellowgreen;
+}
+
+/*------MAIN---------*/
+
+.mainContainer{
+    font-size: 25px;
+    background: lightblue;
+    height: 50vh;
+    text-align: center;
+ 
+}
+
+.mainSection{
+    border: 1px solid blue;
+}
+
+.leftContainer{
+    background: white;
+}
+
+.rigthContainer{
+    background: lightgreen;
+}
+
+.inclineBlock{
+    display: inline-block;
+}
+
+.with{
+    width: 48%;
+}
+
+/*-----FOOTER------*/
+
+.footerContainer{
+    font-size: 25px;
+    background: red;
+    height: 25vh;
+}
+

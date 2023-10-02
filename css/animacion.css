@@ -1,0 +1,41 @@
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background: url(../img/prueba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    animation-name: mianimacion;
+    animation-duration: 10s;
+    /* animation-iteration-count: infinite; */
+    position: relative;
+}
+
+@keyframes mianimacion {
+    0%{
+        left: 0;
+    }
+
+    25%{
+        background-color: blue;
+        left: 300px;
+        top: 0;
+    }
+    50%{
+        background-color: green;
+        border-radius: 50px;
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        background-color: aqua;
+        left: 300px;
+        top: 0;
+    }
+    90%{
+        background-color: blueviolet;
+        left: 0;
+        top: 0;
+    }
+    
+}

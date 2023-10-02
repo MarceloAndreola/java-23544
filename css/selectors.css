@@ -1,0 +1,46 @@
+/*Selector descenciente*/
+div p{
+    color: greenyellow;
+}
+
+/*Selector hijo*/
+p > strong{
+    color: orange;
+}
+
+/*Selector adyacente*/
+h1 + p{
+    color: blue;
+}
+
+/*Selector hermanos generales*/
+h2 ~ p{
+    color: green;
+}
+
+/*Selector por atributo*/
+/*igual */
+
+a{
+    font-size: 2.5em;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a[title='google'] {
+    color: blue;
+}
+
+/*contenga */
+a[href*='face'] {
+    color: pink;
+}
+
+/*comience con */
+a[href^='https'] {
+    color: chartreuse;
+}
+
+a[href$='er.com.ar'] {
+    color: orange;
+}
